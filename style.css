@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(5, 47, 81);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+        text-align: center;
+}
+
+.heading{
+font-size: 40px;
+font-weight: 600;
+margin: 30px 0;
+color: skyblue;
+}
+
+.container{
+height: 70vh;
+width: 60vmin;
+
+}
+
+.game{
+    height: 60vmin;
+    display: flex;
+    gap: 1.8vmin;
+    flex-wrap: wrap;
+    
+}
+.hide{
+    display: none;
+}
+
+.msg{
+    font-size: 1.5rem;
+    color: rgb(210, 210, 4);
+    margin: 10px 0;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 10px;
+    border: none;
+    font-size: 8vmin;
+    font-weight: 500;
+    color: skyblue;
+}
+
+.reset-btn{
+    background-color: skyblue;
+    color: black;
+    padding: 12px 15px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+}
