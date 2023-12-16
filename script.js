@@ -34,7 +34,7 @@ const ResetBtnFun = () => {
         box.innerText = ""
         msg.classList.add("hide")
     }
-    console.log("btn is clicked")
+    
 }
 
 
@@ -62,7 +62,7 @@ boxes.forEach((box) => {
 ///////////----Show Winner Function----/////////
 
 const showWinner = (winner) => {
-    msg.innerText = `${winner} is winner`
+    msg.innerText = `${winner} is Winner`
     msg.classList.remove("hide")
 }
 
