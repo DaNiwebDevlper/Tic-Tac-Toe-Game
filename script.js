@@ -32,6 +32,7 @@ const ResetBtnFun = () => {
     for (let box of boxes) {
         box.disabled = false
         box.innerText = ""
+        msg.classList.add("hide")
     }
     console.log("btn is clicked")
 }
